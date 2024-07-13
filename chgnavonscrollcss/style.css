@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex ;
+    position: fixed;
+    width: 100%;
+    padding: 5px 10px;
+   
+    justify-content: space-between;
+    animation: scroll-transition;
+    animation-timeline: scroll(y);
+
+}
+@keyframes scroll-transition {
+0%{
+    background-color: ;
+
+}
+0.00000000000000000000000000000000000000000000001%{
+    background-color: #000;
+    color: #fff;
+   
+   
+}
+100%{
+    background-color: #000;
+    color: #fff;
+}
+    
+}
+
+
+.navlinks{
+display: flex;
+list-style: none;
+gap: 20px;
+padding-top: 5px;
+    }
+.navbtn{
+    outline: none;
+    border: none;
+    background:red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  
+}
